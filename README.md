@@ -10,7 +10,8 @@ To list a talk, edit `seminar/index.html`. Add a row to the semester's table
 and an article below it containing the title, speaker, and description or
 abstract. Give each article a unique `id`, point the row's talk link to that
 `#id`, and use matching unique heading IDs for `aria-labelledby`. Update the
-visible date/time and the `<time datetime>` value; times are local to New York.
+visible date/time and the `<time datetime>` values in both the table and talk
+details; times are local to New York. Keep them in sync with the events calendar.
 
 The Fall 2026 schedule and descriptions are grouped in the `fall-2026`
 section. When adding another semester, this whole section can be moved to an

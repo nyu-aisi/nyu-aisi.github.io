@@ -54,6 +54,7 @@
       .container { width: calc(100% - 2rem); }
       header { padding-block: 1.25rem; }
     }
+    .attendance { max-width: 44rem; color: var(--muted); }
     .talk { margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--line); }
     .talk h3 { margin: .5rem 0; font-size: 1.4rem; line-height: 1.35; }
     .talk p + p { margin-top: .75rem; }
@@ -82,6 +83,7 @@
     <main>
       <h1>NAISI Seminar</h1>
       <p class="intro">Talks at the NYU AI Safety Initiative.</p>
+      <p class="attendance">Everyone is welcome to attend. Non-NYU visitors should <a href="mailto:gk2860@nyu.edu?subject=NAISI%20seminar%20access">email Gautam Kamath</a> in advance to arrange building access.</p>
       <section id="fall-2026" aria-labelledby="fall-2026-heading">
         <h2 id="fall-2026-heading">Fall 2026</h2>
         <p>All times are in New York local time.</p>
@@ -98,10 +100,10 @@
             </thead>
             <tbody>
               <tr>
-                <td class="date"><time datetime="2026-11-30T13:00-05:00">Nov 30, 2026<br>1:00 PM</time></td>
+                <td class="date"><time datetime="2026-11-30">Nov 30, 2026</time><br><time datetime="2026-11-30T13:00-05:00">1</time>–<time datetime="2026-11-30T14:00-05:00">2 PM</time></td>
                 <td><a href="https://kyshahab.github.io/">Kameron Shahabi</a></td>
                 <td><a href="#kameron-shahabi-2026-11-30">A Cryptographic Perspective on Fingerprinting Machine Learning Model Weights</a></td>
-                <td>WWH 1314</td>
+                <td>Warren Weaver Hall<br>Room 1314</td>
               </tr>
             </tbody>
           </table>
@@ -109,6 +111,7 @@
         <article class="talk" id="kameron-shahabi-2026-11-30" aria-labelledby="kameron-shahabi-title">
           <h3 id="kameron-shahabi-title">A Cryptographic Perspective on Fingerprinting Machine Learning Model Weights</h3>
           <p class="speaker"><strong><a href="https://kyshahab.github.io/">Kameron Shahabi</a></strong></p>
+          <p class="talk-meta"><time datetime="2026-11-30">Monday, November 30, 2026</time> · <time datetime="2026-11-30T13:00-05:00">1</time>–<time datetime="2026-11-30T14:00-05:00">2 PM</time> (New York time)<br>Warren Weaver Hall, Room 1314</p>
           <div class="abstract">
             <p>The talk will discuss a cryptographic framework for fingerprinting machine learning model weights so that models can be attributed to their providers. The work considers users who modify a base model after receiving it, for example through fine-tuning.</p>
             <p><a href="https://eprint.iacr.org/2026/2279">Read the paper</a>, joint work with Huijia Lin.</p>
